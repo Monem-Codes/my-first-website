@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first site</title>
+    <title>Mixed Selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            .bg{
+                background-color: black;
+            }
+                                                                /* style e class name comma diye likhte hobe */
+            .red-likha, .text-color{
+                color: red;
+            }
+            .holud{
+                color: yellow;
+            }
+    </style>
 </head>
 <body>
-    <div>
-        My first website on github repo
+    <h3>My blog</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+    </p>
+                                                                    <!-- tag e multiple class name space diye likhte hobe  -->
+    <p class="bg text-color"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at <span class="holud"> pariatur!</span>
+    </p>
+    <p class="red-likha">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+    </p>
+    <div class="holud bg">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ullam tempore, repellat impedit non incidunt neque dolores eius voluptates explicabo numquam! Aliquam veniam eos obcaecati soluta in at pariatur!
+    </p>
     </div>
 </body>
 </html>
